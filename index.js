@@ -17,4 +17,4 @@ console.log(title);  // 3개의 h1이 들어있는 array 를 가져온다.
 */
 const title =document.querySelector(".hello h1"); 
 title.innerText = "제발"
-
+title.style.color = "purple";
